@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "license": "MIT",
-  "type": "module",
+  "type": "esnext",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -32,6 +32,11 @@
     "prettier": "3.0.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "config": {
     "commitizen": {
