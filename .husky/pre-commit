@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn prettier . --write
-# yarn prettier . --write  ---> if you want to auto fix the code  (use that for personal projects / small teams)
-# yarn prettier . --check  ---> if you want to check the code (use that for big teams) 
+yarn prettier . --write  --cache # if you want to auto fix the code  (use that for personal projects / small teams)
+# yarn prettier . --check --cache # if you want to check the code (use that for big teams) 
