@@ -13,5 +13,7 @@ To follow the pattern of semantic commits, we use the combo of Husky + Commitzen
 
 [Screencast from 03-10-2023 11:58:03.webm](https://github.com/PedroPotenza/Aurora/assets/83480686/743cbf64-d9d3-4cc9-b17b-81b12c8d435d)
 
+(when GNU Nano opens, I just type Ctrl + X to exit)
+
 Result: ![example](https://github.com/PedroPotenza/Aurora/assets/83480686/8cd81785-4a79-4dd4-ab9e-2588478d50bb)
 
